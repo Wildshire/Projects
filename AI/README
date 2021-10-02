@@ -1,0 +1,55 @@
+The Great CS-E4800 Tournament
+#############################
+
+Welcome to "The Great CS-E4800 Tournament"!
+
+In this tournament, you will develop an agent to play the Othello game.
+
+The rules of the game are described here:
+    * https://www.worldothello.org/about/about-othello/othello-rules/official-rules/english
+    * In addition to the above rules, we consider a time limit (e.g., 5 seconds)
+      for each turn. As it would be difficult to adjust to any given time-bound,
+      each player can generate a sequence of increasing good actions in each
+      turn, and the last action within the time lime will be considered as the
+      chosen action for that turn.
+      If a player does not choose any action within the time limit, the game
+      will choose a random action for the player.
+
+
+Instructions
+^^^^^^^^^^^^
+1. Copy `agent-template.py` to `agent.py`
+
+2. Read and understand the `agent.py`
+
+3. Take a look at the following agents:
+3.1. The `RandomAgent` in random_agent.py
+3.2. The `MarkovAgent` in markov_agent.py
+3.3. The `MinimaxAgent` in minimax_agent.py
+
+4. Complete the `info` method of the `Agent` class
+
+5. Complete the `decide` method of the `Agent` class by developing an algorithm
+   to overcome all opponents. You are free to choose what kind of game-playing 
+   agent you implement. Some of the obvious approaches are the following:
+5.1 Implement alpha-beta (and investigate its potential for searching deeper
+    than what is possible with Minimax). Also, the order in which the actions
+    are tried in a given node impacts the effectiveness of alpha-beta: you could
+    investigate different ways of ordering the actions/successor states.
+5.2 Try out better heuristics, e.g. ones that take into account the higher
+    importance of edge and corner cells. Find material on this in the Internet.
+5.3 You could try out more advanced Monte Carlo search methods (however, we do
+    not know whether MCTS is competitive because of the high cost of the full
+    gameplays.)
+5.4 You could of course try something completely different if you are willing to
+    invest more time.
+
+
+Simulation
+^^^^^^^^^^
+For simulating the game, you can use the `main.py` script. Just import your agent
+and `play` the game with an instance of your agent.
+
+
+GL HF :)
+
