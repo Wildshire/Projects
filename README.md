@@ -10,3 +10,5 @@ Repository of different projects
 -Signal Processing: Signal Processing exercises
 
 -Probabilistic Generative Models: Probabilistic Generative Models Lab exercises
+
+-Reinforcement Learning: Reinforcement Learning Lab exercises
