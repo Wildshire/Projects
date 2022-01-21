@@ -12,3 +12,5 @@ Repository of different projects
 -Probabilistic Generative Models: Probabilistic Generative Models Lab exercises
 
 -Reinforcement Learning: Reinforcement Learning Lab exercises
+
+-Deep Learning for NLP: LSTM project
